@@ -1,0 +1,76 @@
+.container div {
+       padding: 10px;
+       
+}
+
+.container{
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+
+.header {
+    
+    background: white;
+    grid-column: 1/3;
+    grid-row: 1/2;
+
+}
+
+.box1 {
+    background: #219191;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.box2 {
+    background: #02b4b4;
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+}
+ 
+.box1 h2{
+    font: outline;
+    text-align: justify;
+    color: white;
+}
+
+.box1 h3 {
+    color: white;
+}
+
+.box1 h4 {
+    color: white;
+}
+
+.sign-up {
+    text-align: center;
+    width: 400px;
+    background-color: yellowgreen;
+    border-radius: 5%;
+    color: white;
+}
+
+
+.header h1 {
+    color: teal;
+}
+
+.header h2 {
+    color: #baf83f;
+}
+
+.box2 h3 {
+    color: white;
+    font-size: 20px;
+}
+
+.box2 h5 {
+    color: white;
+    text-align: left;
+    font-size: 16px;
+
+}
